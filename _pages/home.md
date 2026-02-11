@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**News: A paper from the lab has been accepted into ICRA 2025!** 
+**News: Two papers from the lab have been accepted into ICRA 2026!** 
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -43,7 +43,7 @@ permalink: /
 
 
 Welcome to the Logos Robotics Lab. We are a robotics research group based within the [School of Augmented Intelligence](https://scai.engineering.asu.edu/) at [Arizona State University](https://www.asu.edu/). Our aim is to make robots adept at collaborating with people while augmenting human capabilities. 
-We acchieve these goals by making robots autonomous, collaborative and interactive by solving fundamental problems in Robot Learning, Language Grounding, Task and Motion Planning and Perception.      
+We achieve these goals by making robots autonomous, collaborative and interactive by solving fundamental problems in Robot Learning, Language Grounding, Task and Motion Planning and Perception.      
 
  **We are always looking for passionate Undergraduate and Master students to join the team. If you an ASU student please contact Nakul Gopalan for more details.** 
 

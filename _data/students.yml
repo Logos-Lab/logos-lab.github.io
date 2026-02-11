@@ -15,13 +15,13 @@
 #   number_educ: 0
 #   education1:
 
-- name: Adarsh Hiremath
-  website: https://www.linkedin.com/in/adarshiremath/
-  photo: s4.jpg
-  info: Master student
-  # email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+# - name: Adarsh Hiremath
+#   website: https://www.linkedin.com/in/adarshiremath/
+#   photo: s4.jpg
+#   info: Master student
+#   # email: m.ortego.larrazabal@umail.leidenuniv.nl
+#   number_educ: 0
+#   education1:
 
 # - name: Prabin Rath
 #   photo: s5.jpg
@@ -30,21 +30,20 @@
 #   number_educ: 0
 #   education1:
 
-- name: Suresh Kondepudi
-  website: https://skrish.dev/
-  photo: s6.jpg
-  info: Master student
-  # email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+# - name: Suresh Kondepudi
+#   website: https://skrish.dev/
+#   photo: s6.jpg
+#   info: Master student
+#   # email: m.ortego.larrazabal@umail.leidenuniv.nl
+#   number_educ: 0
+#   education1:
 
-
-- name: Yu-Lun Liu
-  photo: s6.jpg
-  info: Master student
-  # email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+# - name: Yu-Lun Liu
+#   photo: s6.jpg
+#   info: Master student
+#   # email: m.ortego.larrazabal@umail.leidenuniv.nl
+#   number_educ: 0
+#   education1:
 
 # - name: Nupoor Bibawe
 #   photo: s1.jpg
@@ -53,9 +52,52 @@
 #   number_educ: 0
 #   education1:
 
-
 # - name: Shreya Krishna
 #   photo: s5.jpg
+#   info: Master student
+#   # email: m.ortego.larrazabal@umail.leidenuniv.nl
+#   number_educ: 0
+#   education1:
+
+- name: Kartikay Pangaonkar
+  website: https://www.linkedin.com/in/kartikay-pangaonkar-7594a8204/
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+- name: Bhavya Shah
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+- name: Anudeep Gottapu
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+- name: Ryan Varghese
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+- name: Swagat Padhan
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+- name: Lakshya Jain
+  photo: s6.jpg
+  info: Master student
+  number_educ: 0
+  education1:
+
+# - name: Yu-Lun Liu
+#   photo: s6.jpg
 #   info: Master student
 #   # email: m.ortego.larrazabal@umail.leidenuniv.nl
 #   number_educ: 0

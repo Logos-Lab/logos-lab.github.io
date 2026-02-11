@@ -5,7 +5,7 @@
 
 - name: Prabin Kumar Rath
   graduated: Spring 2024
-  info: MLOps Engineer Intern at Experian
+  info: PhD student @ ASU
   website: https://prabinrath.github.io/
 
 - name: Anant Sah
@@ -17,6 +17,23 @@
   graduated: Spring 2024
   info: PhD student @ ASU
   website: https://www.anmolgupta.in/
+
+- name: Adarsh Hiremath
+  graduated: Fall 2024
+  info: Software Development Engineer at Amazon
+  website: https://www.linkedin.com/in/adarshhiremath/
+
+- name: Suresh Kondepudi
+  graduated: Fall 2024
+  info: Robotics Engineer at Stealth Company
+  website: https://skrish.dev/
+
+- name: Yu-Lun Liu
+  graduated: Spring 2025
+  # info:
+  # website:
+
+
 
 # - name: Koen M Bastiaans, Spring 2015
 

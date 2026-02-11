@@ -1,3 +1,21 @@
+- title: Learning Sequential Kinematic Models from Demonstrations for Multi-Jointed Articulated Objects
+  image: anmol.png
+  description: "We address learning object models from human demonstrations. We introduce Object Kinematic Sequence Machines (OKSMs), a novel representation capturing both kinematic constraints and manipulation order for multi-DoF objects. To estimate these models from point-cloud data, we present Pokenet, a deep neural network trained on human demonstrations."
+  authors: Anmol Gupta, Weiwei Gu, Omkar Patil, Jun Ki Lee, Nakul Gopalan
+  link:
+    url: https://arxiv.org/abs/2505.06363
+    display: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  highlight: 1
+
+- title: Factorizing Diffusion Policies for Observation Modality Prioritization
+  image: dist-rw.png
+  description: "We propose Factorized Diffusion Policies (FDP), a novel policy formulation that enables observational modalities to have differing influence on the action diffusion process by design, resulting in more performant and robust policies with strong improvements in low-data regimes and under distribution shifts."
+  authors: Omkar Patil, Prabin Rath, Kartikay Pangaonkar, Eric Rosen, Nakul Gopalan
+  link:
+    url: https://arxiv.org/abs/2509.16830
+    display: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  highlight: 1
+
 - title: XMoP- Whole-Body Control Policy for Zero-shot Cross-Embodiment Neural Motion Planning
   image: prabin_xmop.png
   description: "We propose Cross-Embodiment Motion Policy (XMoP), a neural policy for learning to plan over a distribution of manipulators."
@@ -5,8 +23,8 @@
   link:
     url: https://arxiv.org/abs/2409.15585v1
     display: 2025 IEEE International Conference on Robotics and Automation (ICRA)
-  highlight: 1
-  
+  highlight: 0
+
 - title: Learning Temporally Composable Task Segmentations with Language
   image: div_segm.gif
   description: "We present an approach to identify sub-tasks within a demonstrated robot trajectory with the supervision provided by language instructions."
@@ -15,7 +33,7 @@
   link:
     url: https://ieeexplore.ieee.org/abstract/document/10802712
     display: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  highlight: 1
+  highlight: 0
 
 - title: Hardware-Software Co-Design for Path Planning by Drones
   image: weiwei_aaai24.png
