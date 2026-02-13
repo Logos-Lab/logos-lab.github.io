@@ -1,9 +1,9 @@
-- title: Learning Sequential Kinematic Models from Demonstrations for Multi-Jointed Articulated Objects
+- title: "PokeNet: Learning Kinematic Models of Articulated Objects from Human Observations"
   image: anmol.png
-  description: "We address learning object models from human demonstrations. We introduce Object Kinematic Sequence Machines (OKSMs), a novel representation capturing both kinematic constraints and manipulation order for multi-DoF objects. To estimate these models from point-cloud data, we present Pokenet, a deep neural network trained on human demonstrations."
+  description: "Articulation modeling enables robots to learn how an object’s joints move so they can manipulate it effectively. PokeNet is an end-to-end framework that learns articulation models from a single human demonstration without prior object knowledge. From point cloud sequences, it predicts joint parameters, infers manipulation order, and tracks joint states over time."
   authors: Anmol Gupta, Weiwei Gu, Omkar Patil, Jun Ki Lee, Nakul Gopalan
   link:
-    url: https://arxiv.org/abs/2505.06363
+    url: https://arxiv.org/abs/2602.02741
     display: 2026 IEEE International Conference on Robotics and Automation (ICRA)
   highlight: 1
 
