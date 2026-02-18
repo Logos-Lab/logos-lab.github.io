@@ -16,65 +16,49 @@ The website is created using a template from [Allan Lab](https://www.allanlab.or
 
 ---
 
-## Getting Started (Clone & Run Locally)
+## Getting Started (Fork & Add)
 
-### Prerequisites
+### 1. Fork the Repository
+> **⚠️ IMPORTANT: Make sure you are logged in to your GitHub account.
+- Go to [https://github.com/Logos-Lab/logos-lab.github.io](https://github.com/Logos-Lab/logos-lab.github.io)
+- Click on the `Fork` button.
+- Confirm the fork.
 
-- **Git** — [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- **Ruby** (>= 2.5) and **Bundler** — [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-- **Jekyll** — installed automatically via Bundler (see below)
-
-### 1. Clone the Repository
-
+### 2. Clone your forked repository
 ```bash
-git clone https://github.com/Logos-Lab/logos-lab.github.io.git
+git clone https://github.com/<Your GitHub username>/logos-lab.github.io.git
 cd logos-lab.github.io
 ```
 
-### 2. Install Dependencies
-
-```bash
-gem install bundler   # if you don't have bundler already
-bundle install
-```
-
-### 3. Run the Site Locally
-
-```bash
-bundle exec jekyll serve
-```
-
-The site will be available at **http://localhost:4000**. Changes to most files will auto-reload; if you edit `_config.yml`, you need to restart the server.
-
----
-
-## Git Workflow (Branches & Pull Requests)
+### 3. **Create a new branch** for your changes:
 
 > **⚠️ IMPORTANT: Do NOT commit directly to `gh-pages`.** All changes must go through a pull request.
+```bash
+git checkout gh-pages
+git pull origin gh-pages          # make sure you're up to date
+git checkout -b <your-branch>     # e.g. git checkout -b bshah43
+```
 
-1. **Create a new branch** for your changes:
+### 4. **Make your changes** (edit files, add images, etc.).
+See `Updating Your Profile (Masters & PhD Students)` section
 
-   ```bash
-   git checkout gh-pages
-   git pull origin gh-pages          # make sure you're up to date
-   git checkout -b <your-branch>     # e.g. git checkout -b update-omkar-profile
-   ```
+### 5. **Commit and push** your branch:
+```bash
+git add .
+git commit -m "<Brief description of your change>"
+git push
+```
 
-2. **Make your changes** (edit files, add images, etc.).
+### 6. Merge changes in the main branch of **YOUR FORK**
+- Go to `https://github.com/<Your GitHub username>/logos-lab.github.io`.
+- See the pull requests section.
+- Approve your pull requests and merge with your main branch.
 
-3. **Commit and push** your branch:
-
-   ```bash
-   git add .
-   git commit -m "Brief description of your change"
-   git push origin <your-branch>
-   ```
-
-4. **Open a Pull Request** on GitHub:
-   - Go to the repository on GitHub: https://github.com/Logos-Lab/logos-lab.github.io
-   - Click **"Compare & pull request"** for your branch.
-   - Set the base branch to **`gh-pages`**.
-   - Add a short description and request a review.
+### 5. **Open a Pull Request** on GitHub:
+- Go to the repository on GitHub: [https://github.com/<Your GitHub username>/logos-lab.github.io](https://github.com/<Your GitHub username>/logos-lab.github.io)
+- Click **"Compare & pull request"** for your branch.
+- Set the base branch to **`gh-pages`**.
+- Add a short description and request a review.
 
 5. **Once approved and merged**, your changes will be live on the website.
 

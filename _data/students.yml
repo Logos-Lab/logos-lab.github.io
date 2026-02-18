@@ -72,11 +72,14 @@
   number_educ: 0
   education1:
 
-- name: Bhavya Shah
-  photo: s6.jpg
+- name: Bhavya Minesh Shah
+  website: https://search.asu.edu/profile/5016411
+  photo: bhavya.jpg
   info: Master student
-  number_educ: 0
-  education1:
+  number_educ: 2
+  education1: Master of Science in Robotics and Autonomous Systems (AI) from Arizona State University
+  education2: Bachelor of Technology in Computer Science and Engineering from Vellore Institute of Technology, Vellore
+  joined: Spring 2026
 
 - name: Anudeep Gottapu
   photo: s6.jpg
