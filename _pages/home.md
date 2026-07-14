@@ -85,11 +85,37 @@ window.addEventListener('load', function () {
     // Videos are only played once their slide is showing, and restarted from the top,
     // so a clip is never caught mid-way through.
     var $carousel = jQuery('#carousel');
-    function playActive() {
-        $carousel.find('video').each(function () { this.pause(); this.currentTime = 0; });
-        var video = $carousel.find('.item.active video')[0];
-        if (video) { video.play(); }
+
+    function setIntervalForItem(itemEl) {
+        var carousel = $carousel.data('bs.carousel');
+        if (!carousel) return;
+        var intervalAttr = itemEl && itemEl.getAttribute && itemEl.getAttribute('data-interval');
+        var interval = intervalAttr ? parseInt(intervalAttr, 10) : NaN;
+        if (!isNaN(interval)) {
+            carousel.options.interval = interval;
+            carousel.pause();
+            carousel.cycle();
+        }
     }
+
+    function playActive() {
+        $carousel.find('video').each(function () {
+            try { this.pause(); } catch (e) {}
+            try { this.currentTime = 0; } catch (e) {}
+        });
+
+        var $activeItem = $carousel.find('.item.active');
+        setIntervalForItem($activeItem[0]);
+
+        var video = $activeItem.find('video')[0];
+        if (video) {
+            var p = video.play();
+            if (p && typeof p.catch === 'function') p.catch(function () {});
+        }
+    }
+
+    // Apply the interval to the next slide before the transition starts.
+    $carousel.on('slide.bs.carousel', function (e) { setIntervalForItem(e.relatedTarget); });
     $carousel.on('slid.bs.carousel', playActive);
     playActive();
 });
