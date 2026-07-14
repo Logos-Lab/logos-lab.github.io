@@ -59,46 +59,8 @@
 #   number_educ: 0
 #   education1:
 
-- name: Kartikay Pangaonkar
-  website: https://www.linkedin.com/in/kartikay-pangaonkar-7594a8204/
-  photo: s6.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
 - name: Prabhath Adireddi
   photo: s4.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
-- name: Bhavya Shah
-  photo: s6.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
-- name: Anudeep Gottapu
-  photo: s6.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
-- name: Ryan Sam Varghese
-  website: https://www.linkedin.com/in/ryan-sam-varghese
-  photo: ryan_varghese.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
-- name: Swagat Padhan
-  photo: s6.jpg
-  info: Master student
-  number_educ: 0
-  education1:
-
-- name: Lakshya Jain
-  photo: s6.jpg
   info: Master student
   number_educ: 0
   education1:
