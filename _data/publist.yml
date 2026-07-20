@@ -1,3 +1,12 @@
+- title: "StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models"
+  image: stagecraft.png
+  description: "Vision Language Action models often fail at execution time due to distractor objects and physical obstructions. StageCraft is a training-free approach that uses vision-language model reasoning over policy rollout videos and success labels to identify which objects to reposition before execution, preventing anticipated failures. It improves performance by roughly 40% across three real-world task domains, adapting its interventions to the strength of the underlying policy."
+  authors: Kartikay Milind Pangaonkar, Prabin Rath, Omkar Patil, Nakul Gopalan
+  link:
+    url: https://arxiv.org/abs/2603.20659
+    display: 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  highlight: 1
+
 - title: "PokeNet: Learning Kinematic Models of Articulated Objects from Human Observations"
   image: anmol.png
   description: "Articulation modeling enables robots to learn how an object’s joints move so they can manipulate it effectively. PokeNet is an end-to-end framework that learns articulation models from a single human demonstration without prior object knowledge. From point cloud sequences, it predicts joint parameters, infers manipulation order, and tracks joint states over time."
@@ -5,7 +14,7 @@
   link:
     url: https://arxiv.org/abs/2602.02741
     display: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  highlight: 1
+  highlight: 0
 
 - title: Factorizing Diffusion Policies for Observation Modality Prioritization
   image: dist-rw.png
@@ -14,7 +23,7 @@
   link:
     url: https://arxiv.org/abs/2509.16830
     display: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  highlight: 1
+  highlight: 0
 
 - title: XMoP- Whole-Body Control Policy for Zero-shot Cross-Embodiment Neural Motion Planning
   image: prabin_xmop.png
