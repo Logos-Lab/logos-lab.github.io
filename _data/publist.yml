@@ -1,3 +1,21 @@
+- title: "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning"
+  image: keyframe_mnemonics.jpg
+  description: "Behavior cloning in non-Markovian environments requires reasoning over long horizons, where recurrent models suffer hidden-state collapse and attention-based models are limited by context length. Keyframe Mnemonics is a self-supervised method that discovers a small set of information-critical observations (mnemonics) and conditions the policy on them, providing context retention over long horizons. It achieves 100% success on synthetic memory tasks, generalizing to horizons far beyond training, and improves success by 13.9% over the strongest baseline across 23 memory-intensive manipulation tasks."
+  authors: Prabin Kumar Rath, Omkar Patil, Nakul Gopalan
+  link:
+    url: https://keyframe-mnemonics.github.io/
+    display: 2026 Conference on Neural Information Processing Systems (NeurIPS)
+  highlight: 1
+
+- title: "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation"
+  image: roboreel.jpg
+  description: "Learning from observation lets robots acquire skills from human videos, but existing methods vary widely in assumptions, hardware and setups, making progress hard to assess. RoboReel is a unified benchmark that pairs real-world human demonstration videos with simulated robot trajectories and evaluation environments across ten manipulation tasks, with four test suites covering robustness to visual distractors and long-horizon tasks. Evaluating over seven state-of-the-art algorithms, including VLA-based variants, shows that long-horizon and low-tolerance tasks remain challenging."
+  authors: Weiwei Gu, Anmol Gupta, Anant Sah, Ryan Varghese, Lalitha Shreya Vanam, Prabhath Adireddi, Peter Karkus, Nakul Gopalan
+  link:
+    url: https://arxiv.org/abs/2609.08209
+    display: 2026 Conference on Robot Learning (CoRL)
+  highlight: 1
+
 - title: "StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models"
   image: stagecraft.png
   description: "Vision Language Action models often fail at execution time due to distractor objects and physical obstructions. StageCraft is a training-free approach that uses vision-language model reasoning over policy rollout videos and success labels to identify which objects to reposition before execution, preventing anticipated failures. It improves performance by roughly 40% across three real-world task domains, adapting its interventions to the strength of the underlying policy."
@@ -5,7 +23,7 @@
   link:
     url: https://arxiv.org/abs/2603.20659
     display: 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  highlight: 1
+  highlight: 0
 
 - title: "PokeNet: Learning Kinematic Models of Articulated Objects from Human Observations"
   image: anmol.png
