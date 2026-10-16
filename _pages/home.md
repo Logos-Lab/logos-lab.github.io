@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**News: [StageCraft](https://arxiv.org/abs/2603.20659) has been accepted into IROS 2026, where we are also organizing a [workshop on compositional and modular learning](https://compositional-robotics.github.io/)!** 
+**News: [Keyframe Mnemonics](https://keyframe-mnemonics.github.io/) has been accepted into NeurIPS 2026 and [RoboReel](https://roboreel.github.io/) into CoRL 2026!**
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >

@@ -1,3 +1,9 @@
+- date: Sept 29 2026
+  headline: "[Keyframe Mnemonics](https://keyframe-mnemonics.github.io/), our work on self-supervised keyframe discovery for horizon-invariant behavior cloning, has been accepted to NeurIPS 2026!"
+
+- date: Sept 8 2026
+  headline: "[RoboReel](https://roboreel.github.io/), our benchmark for evaluating robot skill learning from human videos, has been accepted to CoRL 2026!"
+
 - date: July 14 2026
   headline: Omkar Patil and Nakul Gopalan are organizing the workshop on [Compositional and Modular Learning in the Era of Scaling in Robotics](https://compositional-robotics.github.io/) at IROS 2026 in Pittsburgh!
 
